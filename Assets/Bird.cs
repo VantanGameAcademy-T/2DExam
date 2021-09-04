@@ -23,6 +23,10 @@ public class Bird : MonoBehaviour
 
     void Start()
     {
+    }
+
+    public void StartGame()
+    {
         TouchManager.Began += (info) =>
         {
             // クリック地点でヒットしているオブジェクトを取得
